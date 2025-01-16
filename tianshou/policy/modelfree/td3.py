@@ -1,6 +1,7 @@
 from copy import deepcopy
 from dataclasses import dataclass
-from typing import Any, Generic, Literal, Self, TypeVar
+from typing import Any, Generic, Literal, TypeVar
+from typing_extensions import Self
 
 import gymnasium as gym
 import numpy as np

@@ -4,7 +4,8 @@ import warnings
 from abc import ABC, abstractmethod
 from copy import copy
 from dataclasses import dataclass, field
-from typing import Any, Generic, Optional, Protocol, Self, TypedDict, TypeVar, cast
+from typing_extensions import Self
+from typing import Any, Generic, Optional, Protocol, TypedDict, TypeVar, cast
 
 import gymnasium as gym
 import numpy as np

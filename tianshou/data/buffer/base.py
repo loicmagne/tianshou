@@ -1,5 +1,6 @@
 from collections.abc import Sequence
-from typing import Any, ClassVar, Self, TypeVar, cast
+from typing import Any, ClassVar, TypeVar, cast
+from typing_extensions import Self
 
 import h5py
 import numpy as np

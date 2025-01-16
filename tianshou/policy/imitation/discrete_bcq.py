@@ -1,6 +1,7 @@
 import math
 from dataclasses import dataclass
-from typing import Any, Self, TypeVar, cast
+from typing import Any, TypeVar, cast
+from typing_extensions import Self
 
 import gymnasium as gym
 import numpy as np

@@ -1,7 +1,8 @@
 import warnings
 from copy import deepcopy
 from dataclasses import dataclass
-from typing import Any, Generic, Literal, Self, TypeVar, cast
+from typing import Any, Generic, Literal, TypeVar, cast
+from typing_extensions import Self
 
 import gymnasium as gym
 import numpy as np

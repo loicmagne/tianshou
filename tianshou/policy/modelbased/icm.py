@@ -1,4 +1,5 @@
-from typing import Any, Literal, Self, TypeVar
+from typing import Any, Literal, TypeVar
+from typing_extensions import Self
 
 import gymnasium as gym
 import numpy as np

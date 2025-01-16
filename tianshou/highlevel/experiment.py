@@ -25,7 +25,8 @@ from contextlib import suppress
 from copy import deepcopy
 from dataclasses import asdict, dataclass
 from pprint import pformat
-from typing import TYPE_CHECKING, Any, Self, Union, cast
+from typing import TYPE_CHECKING, Any, Union, cast
+from typing_extensions import Self
 
 if TYPE_CHECKING:
     from tianshou.evaluation.launcher import ExpLauncher, RegisteredExpLauncher

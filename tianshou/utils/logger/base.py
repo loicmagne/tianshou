@@ -1,7 +1,7 @@
 import typing
 from abc import ABC, abstractmethod
 from collections.abc import Callable
-from enum import StrEnum
+from enum import Enum
 from numbers import Number
 
 import numpy as np
@@ -13,7 +13,7 @@ VALID_LOG_VALS = typing.get_args(VALID_LOG_VALS_TYPE)
 TRestoredData = dict[str, np.ndarray | dict[str, "TRestoredData"]]
 
 
-class DataScope(StrEnum):
+class DataScope(Enum):
     TRAIN = "train"
     TEST = "test"
     UPDATE = "update"

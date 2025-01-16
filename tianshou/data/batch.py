@@ -48,11 +48,11 @@ from collections.abc import Callable, Collection, Iterable, Iterator, KeysView, 
 from copy import deepcopy
 from numbers import Number
 from types import EllipsisType
+from typing_extensions import Self
 from typing import (
     Any,
     Literal,
     Protocol,
-    Self,
     TypeVar,
     Union,
     cast,
